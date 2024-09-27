@@ -1,0 +1,254 @@
+
+body{
+    background-color: #1b2838;
+}
+main{
+    margin: auto;
+    min-width: 500px;
+    max-width: 1280px;
+    background-color: #1b2838;
+    width: 950px;
+}
+
+main > article > h1{
+    text-align: center;
+    font-size: 3em;
+}
+h1{
+    color: white;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+
+img.pequena{
+    width:405px;
+    height: 200px;
+}
+
+
+main div.direita{
+    float: right;
+    width: 405px;
+    margin: -304px 0px 0px 0px;
+    background-color: rgb(16, 25, 34);
+}
+
+main strong{
+    color: rgb(175, 173, 173);
+    font-size: 1em;
+    color: #556772;
+    font-weight: normal;
+}
+article > div.direita > p{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    color: #C6D4DF;
+    max-width: 400px;
+    font-size: 1.2em;
+}
+
+div.texto_direita > p{
+    color: #556772;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #67C1F5;
+}
+a:hover{
+    color: white;
+}
+
+div.texto_direita > nav > a{
+    font-size: 1.0em;
+    background-color: #67C1F533;
+    padding: 1.5px 3px;
+    border-radius: 2px;
+    color: #67C1F5; 
+     
+}
+
+div.texto_direita > nav > a:hover{
+    color: #ffffff;
+    background-color: #059af1da;
+}
+
+div#data{
+    background-image: linear-gradient(135deg, rgba(64, 120, 152, 0.4) 10%, rgba(102, 192, 244, 0.4) 90%);
+    max-width: 530px;
+    width: 520px;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 23px;
+    padding-bottom: 0px;
+    padding: 2px 0px 0px 10px;
+}
+div#data > p{
+    font-size: 1em;
+    margin-bottom: -13px;
+    color: #90AABB;
+}
+div#data > h2{
+    color:#d5d6d8
+}
+
+
+table, th, td{
+    text-align: center;
+    border-bottom: 1px solid #8f98a0;
+}
+div#tabela{
+    float: right;
+    width: 405px;
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 15px;
+    background-color: rgb(16, 25, 34)
+
+}
+
+div#tabela > table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+div#tabela > p{
+    margin-bottom: -11px;
+    margin-left: 36px;
+    color: #8F98A0;
+}
+div#tabela th{
+    color: #8f98a0;
+}
+
+.corc{
+    color: #8f98a0;
+}
+
+td.cor{
+    color: #67c1f5;
+}
+div#classificacao{
+    float: right;
+    width:405px;
+    margin-top: -420px; 
+    background-color: rgb(16, 25, 34);
+}
+
+div#classificacao > h3{
+    color: white;
+    margin: 10px 0px 0px 10px;
+}
+
+div#classificacao > p{
+    color: #c6d4df;
+    margin: 10px 0px 10px 10px;
+}
+div#interesse{
+    background-color: rgba(37, 67, 85, 0.658);
+    max-width: 530px;
+    width: 520px;
+    margin-top: -20px;
+    border-radius: 0px 0px 5px 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+div#interesse > p{
+    margin-bottom: 15px;
+    font-size: 1em;
+    line-height: 0.3em;
+    display: inline;
+    color: #90a0ad;
+}
+div#interesse > a{
+    display: inline;
+    background-image: linear-gradient(to right, #75b022 5%, #588a1b 95%);
+    color: #D2EFA9;
+    border-radius: 3px;
+    margin-left: 3px;
+    padding: 5px 5px ;
+}
+div#interesse > a:hover{
+    color: white;
+    background-image: linear-gradient(to right, #93db2d 5%, #69a323 95%);
+}
+
+.sobre{
+    max-width: 530px;
+}
+div.sobre p,h5{
+    color: #ACB2B8;
+}
+
+h4{
+    color: white;
+}
+.dale{
+    margin-top: -20px;
+}
+
+ div.texto{
+    margin-top: 10px;
+    padding-bottom: 2px;
+    margin-bottom: -12px;
+}
+div.texto p{
+    margin-top: -2px;
+    line-height: 1.3em;
+}
+div.texto h5{
+    margin-top: 0px;
+    margin-bottom: -1px;
+    font-weight: normal;
+    line-height: 1.3em;      
+}
+
+div#conteudo18 >h5{
+    font-size: 1em;
+    font-weight: normal;
+    margin-top: -16px;
+}
+div#conteudo18 >p{
+    margin-top: -20px;
+}
+div#info{
+    float: right;
+    background-color: rgb(16, 25, 34);
+    width: 385px;
+    margin: -342px 0px 0px 0px;
+    padding: 10px 10px 35px 10px;
+}
+div#info p{
+    color: rgb(143, 152, 160);
+}
+
+div#link > a{
+    color: #67c1f5;
+    display: block;
+    width: 360px;
+    background-color: #67c1f51a;
+    margin-bottom: -16px;
+    padding: 5px;
+}
+div#link > a:hover{
+    color: #ffffff;
+    background-color: #059af1da;   
+}
+dt{
+    color: #bcc6cd;
+}
+dl{
+    max-width: 530px;
+    columns: 2;
+}
+
+dd{
+    margin-left: 0px;
+    color: #acb2b8;
+}
